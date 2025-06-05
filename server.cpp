@@ -4,9 +4,6 @@
 
 using asio::ip::tcp;    // Facilita o uso do tcp::socket e tcp::acceptor
 
-// Para compilar (exemplo Windows):
-// g++ -std=c++17 -IC:/Users/Cesar/Desktop/avbot/include/ server.cpp -o server -lws2_32 -lgdi32
-
 int main() {
     try {
         asio::io_context io; // Contexto de entrada/saída do ASIO
